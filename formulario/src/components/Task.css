@@ -1,0 +1,17 @@
+.todo-input{
+    height: 20px;
+    position: relative;
+    bottom: 100px;
+    background-color: darkslategrey;
+    color: black;
+}
+
+.button{
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    bottom: 100px;
+    color: antiquewhite;
+    height: 35px;
+    border-color: aquamarine;
+}

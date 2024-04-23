@@ -1,0 +1,12 @@
+.Delete{
+    border-radius: 50px;
+    background-color: black;
+    color: antiquewhite;
+    height: 40px;
+    border-color: aquamarine;
+}
+.field-item{
+    height: 30px;
+    background-color: darkslategrey;
+    color: black;
+}

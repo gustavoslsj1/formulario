@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NewTask from "./components/NewTask";
 import Listitems from "./components/Listintems";
+import app from "./app.css"
 const App = ()=>{
   const [tasks,setTasks] = useState([])
 
@@ -22,6 +23,7 @@ const App = ()=>{
   return (
     <div className="App">
       <div className="App-header">
+        <text className="formulario"><strong>FORMULARIO</strong></text>
       <NewTask onSubmit={addNewTask}/>
       {tasks.map(({id,value},index)=>(
         <Listitems

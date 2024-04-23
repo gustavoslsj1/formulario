@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Task from "./Task.css"
 
 const NewTask = ({onSubmit}) =>{
     const[ newItem, setNewItem] = useState("")
@@ -20,7 +21,7 @@ const NewTask = ({onSubmit}) =>{
                     onChange={setNewTask}
                     placeholder="nome da tarefa"
                 />
-                <button type="submit">criar tarefa </button>
+                <button className="button" type="submit">criar tarefa </button>
             </form>
         </div>
     )
