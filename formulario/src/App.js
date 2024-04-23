@@ -35,9 +35,7 @@ const App = ()=>{
       ))}
     
       </div>
-      <div className="Array-preview">
-        <pre>{JSON.stringify(tasks,null,4)}</pre>
-      </div>
+      
     </div>
   );
 }

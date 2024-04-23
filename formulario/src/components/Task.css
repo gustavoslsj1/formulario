@@ -1,9 +1,11 @@
 .todo-input{
-    height: 20px;
+    height: 23px;
     position: relative;
     bottom: 100px;
     background-color: darkslategrey;
     color: black;
+    border-width: 0px;
+    border-radius: 10px;
 }
 
 .button{

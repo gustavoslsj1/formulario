@@ -1,12 +1,43 @@
 .Delete{
+    position: relative;
+    border-radius:50%;
+    background-color: rgb(14, 13, 13);
+    color: rgb(250, 8, 8);
+    height: 20px;
+    width: 20px;
+    border-width: 0px;
+    bottom:47%;
+    left: 45%;
+}
+.details{
     border-radius: 50px;
-    background-color: black;
-    color: antiquewhite;
-    height: 40px;
-    border-color: aquamarine;
+    height: 30px;
+    margin-top: 5px;
+    border-width: 0px;
 }
 .field-item{
-    height: 30px;
-    background-color: darkslategrey;
+   
+    background-color: rgb(255, 255, 255);
     color: black;
+    border-radius: 50px;
+}
+.Container-item{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: 300px;
+    background-color: rgb(3, 95, 131);
+    border-radius: 20px;
+    height: 200px;
+}
+.checkbox{
+    font-size: 15px;
+}
+.box{
+    border-radius: 50px;
+    border-width: 20px;
+    width: 20px;
+    height: 15px;
 }

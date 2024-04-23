@@ -3,14 +3,14 @@
 }
 .formulario{
   font-size: 50px;
-  color:rgb(0, 0, 0);
+  color:rgb(156, 152, 152);
   position: relative;
-  bottom: 200px;
+  bottom: 150px;
 }
 
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
