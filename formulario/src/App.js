@@ -33,9 +33,7 @@ const App = ()=>{
         onChange={(event)=> updateTask(event,index)}
         />
       ))}
-    
       </div>
-      
     </div>
   );
 }

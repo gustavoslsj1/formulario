@@ -7,7 +7,7 @@ const Listitems = ({onChange,onDelete, value})=>{
             <input onChange={onchange} className="details" placeholder="detalhes da tarefa"></input>
             <button className="Delete" onClick={onDelete}>X</button> 
             <texto className="checkbox">checkbox</texto>
-            <input type="checkbox" className="box"  defaultChecked={false}></input>
+            <input type="checkbox" className="box"  defaultChecked={false'}></input>
         </div>
     )
 }
